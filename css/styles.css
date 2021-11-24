@@ -1,0 +1,72 @@
+:root {
+    --gp-font-size: 'GamePLay', 'Roboto';
+    --gp-home-background: #4B4453;
+
+}
+
+@font-face {
+    font-family: 'GamePlay';
+    src: url('../fonts/Gameplay.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+/* LETRA A */
+/* LETRA B */
+.btn-outline-white{
+    border-color:white;
+    color: white;
+}
+.btn-outline-white:hover{
+    transform: scale(1.3);
+    color: white;
+}
+/* LETRA C */
+/* LETRA D */
+/* LETRA E */
+/* LETRA F */
+/* LETRA G */
+/* LETRA H */
+.home{
+    align-items: center;
+    display: flex;
+    background-color: var(--gp-home-background);
+    color: white;
+    height: 100vh;
+    font-family: var(--gp-font-size);
+}
+/* LETRA I */
+/* LETRA J */
+/* LETRA K */
+/* LETRA L */
+/* LETRA M */
+/* LETRA N */
+.navbar{
+    font-family: var(--gp-font-size) !important;
+}
+/* LETRA O */
+/* LETRA P */
+/* LETRA Q */
+/* LETRA R */
+/* LETRA S */
+.subtitle-home{
+    text-align: center;
+    font-size: 2em;
+}
+/* LETRA T */
+.title-home{
+    font-size: 4em;
+    margin-bottom:2em;
+    text-align: center;
+}
+.text-home{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.7em;
+}
+/* LETRA U */
+/* LETRA V */
+/* LETRA W */
+/* LETRA X */
+/* LETRA Y */
+/* LETRA Z */
