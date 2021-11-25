@@ -4,7 +4,7 @@
     "color": "white",
     "description": "Lorem Ipsum is simply dummy",
     "question": "Leon",
-    "nextLevel": "../level3/index.html"
+    "nextLevel": "../level3/index.html",
     "items": [
         {
             "text": "Lyon",
