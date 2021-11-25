@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
 const createContent= (data) =>{
     //Declare Elements DOM
     const header = document.getElementById('header');
-    //colro de fondo
+    //color de fondo
     document.body.style.background = data.background;
     //crear Header
     header.insertAdjacentHTML('afterend', generateHeader(data));
