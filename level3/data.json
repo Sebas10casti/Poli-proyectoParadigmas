@@ -2,7 +2,7 @@
     "title": "LEVEL 3",
     "background": "#1581A0",
     "color": "white",
-    "description": "Lorem Ipsum is simply dummy",
+    "description": "Elige la palabra con su traducción correcta",
     "question": "libro",
     "nextLevel": "../level3/index.html",
     "items": [
