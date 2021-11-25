@@ -1,0 +1,25 @@
+{
+    "title": "LEVEL 4",
+    "background": "#1581A0",
+    "color": "white",
+    "description": "Elige la palabra con su traducción correcta",
+    "question": "bicicleta",
+    "nextLevel": "../level3/index.html",
+    "items": [
+        {
+            "text": "car",
+            "correct": false
+        },
+        {
+            "text": "bike",
+            "correct": true
+        },
+        {
+            "text": "motorcycle",
+            "correct": false
+        },{
+            "text": "plane",
+            "correct": false
+        }
+    ]
+}
