@@ -1,0 +1,25 @@
+{
+    "title": "LEVEL 2",
+    "background": "#1581A0",
+    "color": "white",
+    "description": "Lorem Ipsum is simply dummy",
+    "question": "Leon",
+    "nextLevel": "../level3/index.html"
+    "items": [
+        {
+            "text": "Lyon",
+            "correct": true
+        },
+        {
+            "text": "Dog",
+            "correct": false
+        },
+        {
+            "text": "Cat",
+            "correct": false
+        },{
+            "text": "Tiger",
+            "correct": false
+        }
+    ]
+}

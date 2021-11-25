@@ -14,8 +14,12 @@ const createContent= (data) =>{
     //colro de fondo
     document.body.style.background = data.background;
     //crear Header
-    header.innerHTML= generateHeader(data);
-}
+    header.insertAdjacentHTML('afterend', generateHeader(data));
+    //create descr
 
+    Sortable.create(simpleList, {
+        
+    });
+}
 
 

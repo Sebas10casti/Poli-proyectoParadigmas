@@ -1,7 +1,6 @@
 :root {
     --gp-font-size: 'GamePLay', 'Roboto';
     --gp-home-background: #4B4453;
-
 }
 
 @font-face {
@@ -13,6 +12,10 @@
 
 /* LETRA A */
 /* LETRA B */
+body{
+    font-family: var(--gp-font-size);
+    color: white;
+}
 .btn-outline-white{
     border-color:white;
     color: white;
@@ -21,6 +24,7 @@
     transform: scale(1.3);
     color: white;
 }
+
 /* LETRA C */
 /* LETRA D */
 /* LETRA E */
@@ -33,7 +37,6 @@
     background-color: var(--gp-home-background);
     color: white;
     height: 100vh;
-    font-family: var(--gp-font-size);
 }
 /* LETRA I */
 /* LETRA J */
@@ -41,9 +44,6 @@
 /* LETRA L */
 /* LETRA M */
 /* LETRA N */
-.navbar{
-    font-family: var(--gp-font-size) !important;
-}
 /* LETRA O */
 /* LETRA P */
 /* LETRA Q */
