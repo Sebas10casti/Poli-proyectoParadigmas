@@ -1,0 +1,25 @@
+{
+    "title": "LEVEL 5",
+    "background": "#1581A0",
+    "color": "white",
+    "description": "Elige la palabra con su traducción correcta",
+    "question": "nariz",
+    "nextLevel": "../level6/index.html",
+    "items": [
+        {
+            "text": "eye",
+            "correct": false
+        },
+        {
+            "text": "nose",
+            "correct": true
+        },
+        {
+            "text": "mouth",
+            "correct": false
+        },{
+            "text": "ear",
+            "correct": false
+        }
+    ]
+}
