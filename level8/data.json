@@ -1,0 +1,25 @@
+{
+    "title": "LEVEL 8",
+    "background": "#1581A0",
+    "color": "white",
+    "description": "Elige la palabra con su traducción correcta",
+    "question": "bicicleta",
+    "nextLevel": "../level4/index.html",
+    "items": [
+        {
+            "text": "plane",
+            "correct": false
+        },
+        {
+            "text": "motorcycle",
+            "correct": false
+        },
+        {
+            "text": "car",
+            "correct": false
+        },{
+            "text": "bike",
+            "correct": true
+        }
+    ]
+}
