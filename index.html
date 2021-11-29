@@ -35,12 +35,13 @@
     
     <script src="plugins/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="./services/services.js"></script>
     <script>
         /**
          * Si el usuario esta de acuerdo envia al usuario al nivel 1 e inicilizar vidas
         */
         buttonStart.addEventListener("click", ()=> {
-            localStorage.setItem('gp-lives', 3);
+            setLives(3);
             window.location.href = "level1/index.html"
         });
     </script>

@@ -4,11 +4,9 @@ document.addEventListener("DOMContentLoaded", function(){
     .then(data => createContent(data));
 });
 
-/**
- * Funcion padre que creara el contenido de la pagina
- * @param {object} data
- */
+let information;
 const createContent= (data) =>{
+    information = data;
     //Declare Elements DOM
     const
     header = document.getElementById('header'),
@@ -22,8 +20,14 @@ const createContent= (data) =>{
     //create description
     content += generateDescription(data);
     content += generateOptions(data);
-    container.innerHTML = content;
     
+    //Generar modales
+
+    content += generateModalAnswerCorrect(data.nextLevel)
+    content += generateModalAnswerIncorrect(data.nextLevel)
+    //Imprimir todo el contenido en el DOM
+    container.innerHTML = content;
+
 }
 
 /**
@@ -32,7 +36,12 @@ const createContent= (data) =>{
  * @param {boolean} res
  */
 const isCorrect = (res) =>{
-    res
-    ? alert('correcta')
-    : alert('incorrecta')
+    if(res)
+        openModal('modal-correct')
+    else 
+        container = document.getElementById('wrapper')
+        openModal('modal-incorrect')
+        setLives(getLives()-1)
+        document.getElementById("header").remove()
+        container.insertAdjacentHTML('beforebegin', generateHeader(information));
 }
