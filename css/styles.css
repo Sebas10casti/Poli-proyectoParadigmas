@@ -13,7 +13,7 @@
 /* LETRA A */
 /* LETRA B */
 body{
-    font-family: var(--gp-font-size);
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
     color: white;
 }
 .btn-outline-white{
