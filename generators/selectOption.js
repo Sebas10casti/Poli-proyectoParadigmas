@@ -9,8 +9,8 @@ const createContent= (data) =>{
     information = data;
     //Declare Elements DOM
     const
-    header = document.getElementById('header'),
-    container = document.getElementById('wrapper')
+        header = document.getElementById('header'),
+        container = document.getElementById('wrapper')
     
     let content = '';
     //color de fondo
@@ -22,12 +22,10 @@ const createContent= (data) =>{
     content += generateOptions(data);
     
     //Generar modales
-
     content += generateModalAnswerCorrect(data.nextLevel)
     content += generateModalAnswerIncorrect(data.nextLevel)
     //Imprimir todo el contenido en el DOM
     container.innerHTML = content;
-
 }
 
 /**
@@ -38,10 +36,13 @@ const createContent= (data) =>{
 const isCorrect = (res) =>{
     if(res)
         openModal('modal-correct')
-    else 
+    else
         container = document.getElementById('wrapper')
         openModal('modal-incorrect')
         setLives(getLives()-1)
+        if(getLives() <= 0){
+            window.location.href = "../index.html";
+        }
         document.getElementById("header").remove()
         container.insertAdjacentHTML('beforebegin', generateHeader(information));
 }

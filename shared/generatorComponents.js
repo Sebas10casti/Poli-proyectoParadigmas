@@ -75,3 +75,47 @@ const generateModalAnswerIncorrect = () => {
     </div>
   </div>`
 }
+
+const generateOrganizeImages = ({itemsImages}) => {
+  let content = `<div class="col d-flex justify-content-center">
+    <ul class="list-group list-group-horizontal content-images" id="images-list">`;
+
+  itemsImages.forEach(element =>{
+    content += `
+    <li class="list-group-item" data-text="${element.name}">
+      <div class="container-image" >
+          <img src="${element.urlImage}" alt="">
+      </div>
+    </li>`
+  });
+  content += `
+    </ul>
+  </div>`;
+  
+  return content;
+}
+
+const generateOrganizeText = ({itemsText}) => {
+  let content = `<div class="col d-flex justify-content-center">
+  <ul class="list-group list-group-horizontal content-answers" id="text-list">`;
+
+  itemsText.forEach(element =>{
+    content += `
+    <li class="list-group-item" data-text="${element}">
+          ${element}
+    </li>`
+  });
+  content += `
+    </ul>
+  </div>`;
+  return content;
+}
+
+const generateOrganizeButtons = ({nextLevel}) => {
+  return `
+  <div class="col-12 d-flex justify-content-center mt-4">
+    <button class="btn btn-outline-white" type="button" id="validateButton" onclick="validateDragImagesResults()">Validar</button>
+    <button class="btn btn-outline-white" style="display: none;" type="button" id="nextButton" onclick="nextLevel(${nextLevel})">Siguiente Nivel</button>
+  </div>
+  `
+}

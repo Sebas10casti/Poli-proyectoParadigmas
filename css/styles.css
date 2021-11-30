@@ -1,19 +1,11 @@
 :root {
-    --gp-font-size: 'GamePLay', 'Roboto';
+    --gp-font-family: 'Roboto';
     --gp-home-background: #4B4453;
 }
-
-@font-face {
-    font-family: 'GamePlay';
-    src: url('../fonts/Gameplay.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-  }
 
 /* LETRA A */
 /* LETRA B */
 body{
-    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
     color: white;
 }
 .btn-outline-white{
@@ -26,6 +18,28 @@ body{
 }
 
 /* LETRA C */
+.content-images li{
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 15px;
+}
+.content-images li .container-image{
+    width: 250px;
+    height: 250px;
+}
+.content-images li img{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}
+.content-answers{
+    margin-top: 40px;
+}
+.content-answers li{
+    width: 250px;
+    margin-right: 15px;
+}
 /* LETRA D */
 /* LETRA E */
 /* LETRA F */
@@ -57,7 +71,7 @@ body{
 /* LETRA S */
 .subtitle-home{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 /* LETRA T */
 .title-home{
@@ -68,7 +82,7 @@ body{
 .text-home{
     margin-top: 40px;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 /* LETRA U */
 /* LETRA V */

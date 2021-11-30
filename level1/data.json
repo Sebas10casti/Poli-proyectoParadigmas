@@ -1,5 +1,22 @@
 {
     "title": "LEVEL 1",
-    "background": "#1581A0",
-    "color": "white"
+    "color": "white",
+    "background": "#008F7A",
+    "description": "Organiza las imagenes segun su signifacado",
+    "nextLevel": "../level2/index.html",
+    "itemsImages": [
+        {
+            "urlImage": "../images/test.png",
+            "name": "Lion"
+        },
+        {
+            "urlImage": "../images/test1.png",
+            "name": "Astronaut"
+        },
+        {
+            "urlImage": "../images/test3.png",
+            "name": "Dog"
+        }
+    ],
+    "itemsText":["Dog", "Lion", "Astronaut"]
 }
