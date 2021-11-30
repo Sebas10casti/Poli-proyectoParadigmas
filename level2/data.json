@@ -1,7 +1,6 @@
 {
     "title": "LEVEL 2",
-    "background": "#1581A0",
-    "color": "white",
+    "background": "#008F7A",
     "description": "Elige la palabra con su traducción correcta ",
     "question": "Leon",
     "nextLevel": "../level3/index.html",
