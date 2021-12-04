@@ -1,5 +1,22 @@
 {
-    "title": "LEVEL7",
-    "background": "#565B70",
-    "color": "white"
+    "title": "LEVEL 7",
+    "color": "white",
+    "background": "#008F7A",
+    "description": "Organiza las imagenes segun su signifacado",
+    "nextLevel": "../level8/index.html",
+    "itemsImages": [
+        {
+            "urlImage": "../images/avion.png",
+            "name": "avion"
+        },
+        {
+            "urlImage": "../images/moto.png",
+            "name": "moto"
+        },
+        {
+            "urlImage": "../images/carro.png",
+            "name": "carro"
+        }
+    ],
+    "itemsText":["carro", "moto", "avion"]
 }
