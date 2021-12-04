@@ -1,0 +1,22 @@
+{
+    "title": "LEVEL 9",
+    "color": "white",
+    "background": "#5D6D7E",
+    "description": "Organiza las imagenes segun su signifacado",
+    "nextLevel": "../index.html",
+    "itemsImages": [
+        {
+            "urlImage": "../images/lapiz.png",
+            "name": "pen"
+        },
+        {
+            "urlImage": "../images/lapicero.png",
+            "name": "pencil"
+        },
+        {
+            "urlImage": "../images/borrador.png",
+            "name": "eraser"
+        }
+    ],
+    "itemsText":["eraser", "pen", "pencil"]
+}
