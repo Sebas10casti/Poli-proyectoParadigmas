@@ -1,5 +1,22 @@
 {
     "title": "LEVEL6",
     "background": "#B0A8B9",
-    "color": "white"
+    "color": "white",
+    "description": "Organiza las imagenes segun su signifacado",
+    "nextLevel": "../level7/index.html",
+    "itemsImages": [
+        {
+            "urlImage": "../images/ojo.png",
+            "name": "eye"
+        },
+        {
+            "urlImage": "../images/nariz.png",
+            "name": "nose"
+        },
+        {
+            "urlImage": "../images/boca.png",
+            "name": "mouth"
+        }
+    ],
+    "itemsText":["mouth" , "nose","eye" ]
 }
