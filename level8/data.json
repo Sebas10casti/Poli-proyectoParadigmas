@@ -4,7 +4,7 @@
     "color": "white",
     "description": "Elige la palabra con su traducción correcta",
     "question": "bicicleta",
-    "nextLevel": "../level4/index.html",
+    "nextLevel": "../level9/index.html",
     "items": [
         {
             "text": "plane",
