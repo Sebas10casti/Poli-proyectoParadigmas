@@ -3,7 +3,7 @@
     "color": "white",
     "background": "#5D6D7E",
     "description": "Organiza las imagenes segun su signifacado",
-    "nextLevel": "../index.html",
+    "nextLevel": "../level10/index.html",
     "itemsImages": [
         {
             "urlImage": "../images/lapiz.png",
