@@ -1,0 +1,22 @@
+{
+    "title": "LEVEL 11",
+    "color": "white",
+    "background": "#008F7A",
+    "description": "Organiza las imagenes segun su signifacado",
+    "nextLevel": "../index.html",
+    "itemsImages": [
+        {
+            "urlImage": "../images/gato.png",
+            "name": "cat"
+        },
+        {
+            "urlImage": "../images/libro.png",
+            "name": "book"
+        },
+        {
+            "urlImage": "../images/bicicleta.png",
+            "name": "bike"
+        }
+    ],
+    "itemsText":["book", "bike", "cat"]
+}
