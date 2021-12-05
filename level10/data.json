@@ -1,0 +1,22 @@
+{
+    "title": "LEVEL 10",
+    "color": "white",
+    "background": "#EB984E",
+    "description": "Organiza las imagenes segun su signifacado",
+    "nextLevel": "../level11/index.html",
+    "itemsImages": [
+        {
+            "urlImage": "../images/cuchara.png",
+            "name": "spoon"
+        },
+        {
+            "urlImage": "../images/cuchillo.png",
+            "name": "knife"
+        },
+        {
+            "urlImage": "../images/tenedor.png",
+            "name": "fork"
+        }
+    ],
+    "itemsText":["knife", "fork", "spoon"]
+}
